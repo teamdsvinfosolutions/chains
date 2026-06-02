@@ -2,9 +2,8 @@
   "name": "NirmalX Smart Chain",
   "chain": "NRXN",
   "icon": "nrxn",
-  "rpc": [
-    "https://rpc.nirmalxscan.com"
-  ],
+  "rpc": ["https://rpc.nirmalxscan.com"],
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
   "faucets": [],
   "nativeCurrency": {
     "name": "NirmalX Nova",
@@ -19,6 +18,7 @@
     {
       "name": "NirmalXScan",
       "url": "https://nirmalxscan.com",
+      "icon": "nrxn",
       "standard": "EIP3091"
     }
   ]
